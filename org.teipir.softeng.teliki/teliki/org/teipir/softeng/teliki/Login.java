@@ -37,7 +37,7 @@ public class Login   {
 		String driver="sun.jdbc.odbc.JdbcOdbcDriver";
 		Class.forName(driver);
 		
-		String db="jdbc:odbc:logindb2";
+		String db="jdbc:odbc:logindb";
 		con=DriverManager.getConnection(db);
 		st=con.createStatement(); //<--kanoniko
 		//gia navigation buttons video 4 gia na kanoume scroll sthn database
